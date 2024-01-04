@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <h1>To-Do List</h1>
+        <div id="auth-container">
+            <div id="auth-status"></div>
+            <div id="auth-button"></div>
+        </div>
+        <div id="todo-container">
+            <h2>Your To-Do List</h2>
+            <table id="todo-table">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody id="todo-list"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

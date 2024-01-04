@@ -1,0 +1,23 @@
+{
+  "name": "web-api",
+  "version": "1.0.0",
+  "description": "Pembuatan Web API ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raisyans/Web-API.git"
+  },
+  "keywords": [
+    "web",
+    "API"
+  ],
+  "author": "raisya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raisyans/Web-API/issues"
+  },
+  "homepage": "https://github.com/raisyans/Web-API#readme"
+}
